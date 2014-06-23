@@ -41,14 +41,29 @@ for (var i =1; i<4; i++) {
 	}
 }
 
-
+// 2,4,6,8,2,4,6,8,2,4,6,8
 for (var i =2; i<5; i++){
 	for (var z =2; z<9; z+=2)
 		console.log (z)
 }
 
+// 000,111,222,333,444
 for (var i =0; i<5; i++){
 	for (var z=0; z<3; z++){
 		console.log(i)
 	}
 }
+
+
+for (var i=6; i<10; i++){
+	for (var z=1; z<3; z++){
+		console.log(i)
+	}
+}	
+
+for (var i=3; i<6; i++){
+	for (var z=3; z<12; z++){
+		console.log(z)
+	}
+}
+
